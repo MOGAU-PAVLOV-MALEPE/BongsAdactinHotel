@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
         features = "src/test/java/feature",
-        tags = "@run1 or @run2",
+        tags = "@run1 or ~@run2",
         glue={"stepDefinitions"}
 
 )
